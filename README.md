@@ -355,7 +355,7 @@
       <div class="pixel-tag">QUÊTE ACCOMPLIE</div>
       <h3>Ma Sarah ❤️</h3>
       <p>
-        Merci d'être ma lumière, ma merveille, ma seule et unique Sarah.
+        Tu es la plus belle chose qui me soit arrivée, et sincèrement, chaque jour passé à tes côtés ne fait que me le confirmer. Quand je te regarde, ce n'est pas juste une question d'apparence, même si tu es absolument splendide et captivante. C'est tout ce que tu dégages : ton sourire, ton regard, la douceur et la grâce avec lesquelles tu fais chaque chose.
       </p>
       <button class="btn-primary" style="margin-top: 15px;" onclick="triggerFireworks()">Lancer la célébration 🎆</button>
     </div>
