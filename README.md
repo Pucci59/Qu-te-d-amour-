@@ -355,7 +355,7 @@
       <div class="pixel-tag">QUÊTE ACCOMPLIE</div>
       <h3>Ma Sarah ❤️</h3>
       <p>
-        Merci d'être qui tu es, d'illuminer chaque journée et d'être ma partenaire préférée, sur Minecraft comme dans la vraie vie.
+        Merci d'être ma lumière, ma merveille, ma seule et unique Sarah.
       </p>
       <button class="btn-primary" style="margin-top: 15px;" onclick="triggerFireworks()">Lancer la célébration 🎆</button>
     </div>
@@ -421,7 +421,7 @@
     initParticles();
     animateParticles();
 
-    // 2. GESTION DE LA NAVIGATION ET DE LA TRANSITION
+    // 2. GESTION DE LA NAVIGATION ET DU TRANSITION
     document.getElementById('btn-start').addEventListener('click', () => {
       document.querySelector('.hero').classList.add('hidden');
       const questSection = document.getElementById('quest-section');
@@ -440,7 +440,7 @@
       modal.classList.add('hidden');
     }
 
-    // Fermer le modal si clic à l'extérieur
+    // Close modal on background click
     window.addEventListener('click', (e) => {
       if (e.target.classList.contains('modal-overlay')) {
         e.target.classList.add('hidden');
@@ -465,7 +465,7 @@
       }
     }
 
-    // 5. CÉLÉBRATION FINALE
+    // 5. CÉLÉBRATION FINALE (EXPLOSION DE PARTICULES)
     function triggerFireworks() {
       for (let i = 0; i < 40; i++) {
         particlesArray.push(new FastParticle());
